@@ -5,12 +5,13 @@ import java.util.GregorianCalendar;
 
 public class Person {
 
-    public Person(String name, Calendar birthday) {
+    public Person(String name, Calendar birthday,String lastName) {
         this.name = name;
         this.birthday = birthday;
+        this.lastName=lastName;
     }
     private final String name;
-
+private final String lastName;
     public String getName() {
         return name;
     }
